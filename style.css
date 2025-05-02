@@ -1,0 +1,150 @@
+/*Top, Right, Bottom , Left*/
+
+
+/*Header*/
+
+.LogoTxt{
+    font-family: 'Audiowide';
+    font-weight:bolder;
+    color: black;
+
+}
+
+.LogoTxt:hover{
+    color: #e71127;
+}
+
+.navbar-nav{
+    text-align: right;
+}
+
+
+/*Content*/ 
+
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a:hover{
+    color:#e71127;
+}
+
+a{
+    text-decoration: none;
+}
+
+.card{
+    height:95%;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.card:hover{
+    border: 2px solid #e71127;
+    transform: translateY(-10px);
+    transition: transform 300ms;
+}
+
+.cardBody{
+    color:black;
+}
+
+.cardBody:hover{
+    color:#e71127;
+}
+
+.card h5{
+    font-family: "Audiowide";
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0px 10px 10px 0px;
+
+}
+
+.cardImg{
+    height:200px;
+    width: 100%;
+    padding: 15px 5px 5px 5px;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+
+.cardImg:hover{
+   color:black;
+
+}
+
+.cardTxt{
+    font-weight: 10;
+    font-size: 12px;
+}
+
+
+
+.imgFrontPage{
+    height:100%;
+    width:100%;
+    background-color: blue;
+
+}
+
+.imgSqaure{
+    height: 300px;
+    width: 300px;
+    object-fit: fill;
+    
+}
+
+.characterTitle{
+    font-family:'Audiowide';
+}
+
+.imgText{
+    font-size: 6px;
+    font-style: italic;
+    color: gray;
+}
+
+
+/*Footer Items*/ 
+.footerContainer{
+    height:100%;
+    width:100%;
+}
+
+.footerLogo{
+    font-family: 'Audiowide';
+    padding: 0px 0px 0px 50px;
+    font-size: 25px;
+    font-weight:bolder;
+    color: rgb(43, 43, 43);
+}
+
+.footerLogo:hover {
+    color:black;
+
+    }
+    
+footer{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+
+}
+
+.footerLinks{
+    color:white;
+}
+
+.footerTerms{
+    text-decoration: none;
+    color:rgb(43, 43, 43);
+}
+
+
+.footerHeader{
+    font-size: 18px;
+    padding: 0px 0px 10px 0px;
+}

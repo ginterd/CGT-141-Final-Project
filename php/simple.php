@@ -1,14 +1,13 @@
 <?php
-// Server-side: simple.php
+if ($_SERVER["REQUEST_METHOD"] === "POST") {
+    $email = $_POST['email'] ?? '';
+    $query = $_POST['query'] ?? '';
+    $message = $_POST['message'] ?? '';
 
-// Capture the form fields (optional: add validation/sanitization)
-$email = $_POST['email'] ?? '';
-$query = $_POST['query'] ?? '';
-$message = $_POST['message'] ?? '';
+    // You could email this or save to DB here
 
-// You could store this in a database, email it, etc.
-// For now, we just redirect.
-
-header("Location: ../index.html?success=true"); // Go back to the HTML page
-exit();
+    // Redirect back with success flag
+    header("Location: /contact.html?success=true");
+    exit();
+}
 ?>

@@ -16,9 +16,7 @@
   }
 
 
-  if (window.location.search.includes('success=true')) {
-    alert("Your message has been sent. Far out!");
-  }
+ 
 
   /*References
   https://www.w3schools.com/jsref/prop_style_display.asp

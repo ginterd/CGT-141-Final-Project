@@ -1,6 +1,3 @@
-
-  
-  
   function filterCards(monsters) {
 
 

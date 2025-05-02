@@ -86,20 +86,21 @@
             </div>
             </div>
             <div class="col-lg">
-              <form method="POST" action="php/simple.php">
-                <label>Email:</label>
-                <input type="email" name="email" required>
+              <form method="POST" action="simple.php">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
               
-                <label>Query:</label>
-                <select name="query" required>
+                <label for="query">What is your query?</label>
+                <select id="query" name="query" required>
+                  <option value="">--Select--</option>
                   <option>Creature Sighting</option>
                   <option>Unexpected Powers Gained</option>
                 </select>
               
-                <label>Message:</label>
-                <textarea name="message" required></textarea>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
               
-                <button type="submit">Submit</button>
+                <button type="submit">Send</button>
               </form>
             </div>
       
@@ -205,8 +206,6 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"crossorigin="anonymous"></script>
     <script src="script.js" defer></script>
-    <script>  if (window.location.search.includes('success=true')) {
-      alert("Your message has been sent. Far out!");
-    }</script>
+   
 </body>
 </html>

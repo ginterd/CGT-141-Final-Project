@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Paranormal Finders</title>
+           <!--Google Fonts-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <!--Social Media Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    </head>
+<body>
+     <!-- Header -->
+     <header>
+      <!--Nav Bar-->
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <div class="container-fluid">
+  
+                  <a class="navbar-brand" href="index.html">
+                  <a href="index.html" style="text-decoration: none;"><h3 class="LogoTxt">Paranormal Finder</h3></a>
+                  </a>
+   
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                  </button>
+              
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                              <a class="nav-link" href="about.html">About</a>
+                           </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="filter.html">Archive</a>
+                          </li>
+                          <li class="nav-item">
+                               <a class="nav-link" href="contact.html">Contact</a>
+                          </li>
+                      </ul>
+                
+                  </div>
+              </div>
+          </nav>
+      </header>
+  
+    <!--Filter-->
+
+    <section>
+      <div class="container mt-5">
+        <h1 style="font-weight: bold;">Creatures</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur sunt temporibus expedita ducimus dicta laboriosam error quisquam, eveniet fuga, deserunt corrupti sed, ex quaerat cum illo nam nemo repellat commodi.</p>
+
+        <!-- Filter Buttons -->
+        <div class="mb-3">
+          <button class="btn btn-danger" onclick="filterCards('alien')">Aliens</button>
+          <button class="btn btn-danger" onclick="filterCards('yokai')">Yokai</button>
+          <button class="btn btn-danger" onclick="filterCards('all')">All</button>
+        </div>
+
+        <br>
+        <br>
+        
+      <!-- Cards Group One -->
+       <section>
+         <div class="row m-2 p-1">
+
+          <!--Card One: Flatwoods-->
+          <div class="col-md-3">
+            <div class="card" aliens-or-yokai="alien">
+              <a href="creature1.html">
+                <div class="cardBody">
+                  <img class="cardImg" src="./img/flatwoods.png" alt="Flatwoods Monster">
+                <h5 class="cardTitle">The Flatwoods Monster</h5>
+                <p class="cardTxt">The Flatwoods Monster is an alien and a UMA who was an associate of the alien group known as the Serpos.</p>
+              </div>
+              </a>
+            </div>
+          </div>
+
+          <!--Card Two: Turbo Granny-->
+          <div class="col-md-3">
+            <div class="card" aliens-or-yokai="yokai">
+              <a href="creature2.html">
+                <div class="cardBody">
+                  <img class="cardImg" src="./img/turbo-granny-dandadan-1.avif" alt="Turbo Granny">
+                <h5 class="cardTitle">Turbo Granny</h5>
+                <p class="cardTxt">Turbo Granny is a well-known yokai that was previously within a tunnel located at Shono City until her confrontation with Momo Ayase and Okarun.</p>
+              </div>
+              </a>
+            </div>
+          </div>
+
+          <!--Card Three: Mr. Mantis Shrimp-->
+          <div class="col-md-3">
+            <div class="card" aliens-or-yokai="alien">
+              <a href="creature3.html">
+                <div class="cardBody">
+                  <img class="cardImg" src="./img/mr-mantis-shrimp-in-dandadan-episode-8.avif" alt="Mr. Mantis Shrimp">
+                <h5 class="cardTitle">Mr. Mantis Shrimp</h5>
+                <p class="cardTxt">Penīchinkosu, also referred to as Mr. Mantis Shrimp by Momo and Okarun, is an alien and a UMA known as the Dover Demon. He works as a bodyguard for other alien races.</p>
+              </div>
+              </a>
+            </div>
+          </div>
+
+        <!--Card Four: Acrobatic Silky-->
+          <div class="col-md-3">
+            <div class="card" aliens-or-yokai="yokai">
+              <a href="creature4.html">
+                <div class="cardBody">
+                  <img class="cardImg" src="./img/acrobatic-silky-dandadan.avif" alt="Acrobatic Silky">
+                <h5 class="cardTitle">Acrobatic Silky</h5>
+                <p class="cardTxt">Acrobatic Silky is a yokai that had been stalking Aira Shiratori ever since she was a little girl. She seeks to be the mother of Aira, despite not being blood related.</p>
+              </div>
+              </a>
+            </div>
+          </div>
+          
+          
+        </div>
+       </section>
+
+        <!-- Cards Group Two -->
+        <section>
+          <div class="row m-2 p-1">
+ 
+           <!--Card One: Serpos-->
+           <div class="col-md-3">
+             <div class="card" aliens-or-yokai="alien">
+               <a href="creature5.html">
+                 <div class="cardBody">
+                   <img class="cardImg" src="./img/serpro.jpg" alt="Serpro">
+                 <h5 class="cardTitle">Serpo</h5>
+                 <p class="cardTxt">The Serpo Aliens are an entirely male alien race who come from Planet Serpo in the Zeta Reticuli system. Their primary objective is to research humans to figure out how to help their own species evolve.</p>
+               </div>
+               </a>
+             </div>
+           </div>
+ 
+           <!--Card Two: Slit-Mouthed Woman-->
+           <div class="col-md-3" >
+             <div class="card" aliens-or-yokai="yokai">
+               <a href="creature6.html">
+                 <div class="cardBody">
+                   <img class="cardImg" src="./img/dandadan-slit-mouth-woman-reiko-can-t-get-in.avif" alt="Slit-Mouthed Woman">
+                 <h5 class="cardTitle">Slit-Mouthed Woman</h5>
+                 <p class="cardTxt">Reiko Kashima, also known as the Slit-Mouthed Woman, is a yokai that formerly resided in a ruined area in Kamigoe City.</p>
+               </div>
+               </a>
+             </div>
+           </div>
+ 
+           <!--Card Three: Mandrill-->
+           <div class="col-md-3">
+             <div class="card" aliens-or-yokai="alien">
+               <a href="creatureone7.html">
+                 <div class="cardBody">
+                   <img class="cardImg" src="./img/Mandrill_Alien_Portrait.webp" alt="Mandrill">
+                 <h5 class="cardTitle">Mandrill</h5>
+                 <p class="cardTxt"> Mandrill is an alien who attacked Momo and Okarun while they were at school after coming to Earth to collect test subjects.</p>
+               </div>
+               </a>
+             </div>
+           </div>
+ 
+         <!--Card Four: Evil Eye-->
+           <div class="col-md-3">
+             <div class="card" aliens-or-yokai="yokai">
+               <a href="creatureone8.html">
+                 <div class="cardBody">
+                   <img class="cardImg" src="./img/Dandadan-Evil-Eye-Yokai.avif" alt="Evil Eye">
+                 <h5 class="cardTitle">Evil Eye</h5>
+                 <p class="cardTxt">The Evil Eye is a yokai who has spent years bound to the Tsuchinoko sacrificial house. This yokai has the power to cause people to harm themselbes, after driving those people into insanity.</p>
+               </div>
+               </a>
+             </div>
+           </div>
+           
+           
+         </div>
+        </section>
+
+
+
+    </section>
+   
+
+        <br>
+        <br>
+        <br>
+
+    
+      
+   <!--Footer Section-->
+   <br>
+   <br>
+ <section>
+   <div class="footerContainer">
+
+       <!--Footer Title-->
+       <a href="index.html" style="text-decoration: none;">
+         <h3 class="footerLogo">Paranormal Finder</h3></a>
+ 
+     <!--Footer-->
+ 
+     <footer class="text-left">
+ 
+         
+ 
+       <div class="container p-4">
+ 
+     <!--Description-->
+         <div class="row">
+           <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+               <p>Paranormal Finder is a off the hit series 'Dandadan.' This final project was created for CGT 141 to showcase Daniel Ginter's skills throughout the Spring 2025 semester.</p>
+           </div>
+ 
+           <!--Newsletter-->
+           <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+             <h5 class="footerHeader">The Paranormal Newsletter</h5>
+           
+             <form>
+               <div class="form-group">
+                 <input type="email" class="form-control" id="newsletterForm" required>
+               </div>
+               <br>
+           
+               <button type="submit" class="btn btn-outline-danger btn-block">Submit</button>
+             </form>
+           </div>
+   
+           <!--Social Media-->
+           <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+             <h5 class="footerHeader">Follow Us</h5>
+             <div class="socialMedia">
+               <a href="https://www.youtube.com/watch?v=0XJxfbN36Uw" class="btn btn-outline-danger" role="button">
+                   <i class="fa fa-youtube"></i>
+               </a>
+               <a href="https://x.com/TatuYukinobu" class="btn btn-outline-danger" role="button">
+                   <i class="fa fa-twitter"></i>
+               </a>
+               <a href="https://www.instagram.com/dandadan.0fficial/?hl=en" class="btn btn-outline-danger" role="button">
+                   <i class="fa fa-instagram"></i>
+               </a>
+               <a href="https://open.spotify.com/track/6KYOlIwDHbrbeBbJEtQ0Fj?si=e1ec410427a1475b" class="btn btn-outline-danger" role="button">
+                   <i class="fa fa-spotify"></i>
+               </a>
+             </div>
+           </div>
+   
+           <!--Contact-->
+           <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+             <h5 class="footerHeader">Contact</h5>
+   
+             <ul class="list-unstyled">
+               <li>
+                 <div class="footerLinks">
+                     <a class="footerLinks" href="mailto:ginterd@purdue.edu.com">ginterd@purdue.edu.com</a>
+                 </div>
+               </li>
+             </ul>
+           </div>
+         </div>
+       </div>
+ 
+       <!-- Copyright -->
+      <div class="row d-flex align-items-center">
+           <div class="col-md-3" style="padding: 0px 0px 0px 100px;">
+               <a class="footerTerms" href="privacy.html" class="footerLinks">Privacy Policy</a>
+           </div>
+           <div class="col-md-9">
+               <a class="footerTerms" href="terms.html" class="footerLinks">Terms of Service</a>
+           </div>
+       </div>
+       <br>
+    
+ 
+      </div>
+     </footer>
+   </div>
+ </section>
+
+    
+
+    <!--Script-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"crossorigin="anonymous"></script>
+    <script src="js/script.js" defer></script>
+    
+</body>
+</html>
+
+<!--References
+https://getbootstrap.com/docs/4.0/components/list-group/
+https://getbootstrap.com/docs/4.0/components/card/
+-->
